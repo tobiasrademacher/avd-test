@@ -153,7 +153,7 @@
     "nsgTemplateURI": "https://raw.githubusercontent.com/tobiasrademacher/avd-test/dev/resources/HybridAD/Templates/NSGs.json",
     "vnetTemplateURI": "https://raw.githubusercontent.com/tobiasrademacher/avd-test/dev/resources/HybridAD/Templates/deployVNet.json",
     "vnetDNSTemplateURI": "https://raw.githubusercontent.com/tobiasrademacher/avd-test/dev/resources/HybridAD/Templates/deployVNetDNS.json",
-    "adDSCTemplate": "https://raw.githubusercontent.com/tobiasrademacher/avd-test/tree/dev/resources/HybridADTemplates/DSC/adDSC.zip",
+    "adDSCTemplate": "https://github.com/tobiasrademacher/avd-test/blob/dev/resources/HybridAD/DSC/adDSC.zip",
     "adDSCConfigurationFunction": "adDSCConfiguration.ps1\\DomainController",
     "subnets": [
       {
