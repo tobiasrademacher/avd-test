@@ -149,11 +149,11 @@
     "adNSGName": "[concat('INT-AD', parameters('deploymentNumber'))]",
     "virtualNetworkName": "[concat(variables('companyNamePrefix'), parameters('deploymentNumber'), '-vnet')]",
     "adSubnetName": "[concat('adSubnet', parameters('deploymentNumber'))]",
-    "adTemplateURI": "[concat(parameters('assetLocation'),'/Templates/adDeploy.json')]",
-    "nsgTemplateURI": "[concat(parameters('assetLocation'),'/Templates/NSGs.json')]",
-    "vnetTemplateURI": "[concat(parameters('assetLocation'),'/Templates/deployVNet.json')]",
-    "vnetDNSTemplateURI": "[concat(parameters('assetLocation'),'/Templates/deployVNetDNS.json')]",
-    "adDSCTemplate": "[concat(parameters('assetLocation'),'/DSC/adDSC.zip')]",
+    "adTemplateURI": "https://raw.githubusercontent.com/tobiasrademacher/avd-test/tree/dev/resources/HybridADTemplates/adDeploy.json",
+    "nsgTemplateURI": "https://raw.githubusercontent.com/tobiasrademacher/avd-test/tree/dev/resources/HybridADTemplates/Templates/NSGs.json",
+    "vnetTemplateURI": "https://raw.githubusercontent.com/tobiasrademacher/avd-test/tree/dev/resources/HybridADTemplates/Templates/deployVNet.json",
+    "vnetDNSTemplateURI": "https://raw.githubusercontent.com/tobiasrademacher/avd-test/tree/dev/resources/HybridADTemplates/Templates/deployVNetDNS.json",
+    "adDSCTemplate": "https://raw.githubusercontent.com/tobiasrademacher/avd-test/tree/dev/resources/HybridADTemplates/DSC/adDSC.zip",
     "adDSCConfigurationFunction": "adDSCConfiguration.ps1\\DomainController",
     "subnets": [
       {
