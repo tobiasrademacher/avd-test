@@ -4,10 +4,13 @@
   "parameters": {
     "assetLocation": {
       "type": "string",
-      "defaultValue": "https://raw.githubusercontent.com/microsoft/MCW-Implementing-Azure-Virtual-Desktop-in-the-enterprise/main/Hands-on%20lab/resources/HybridAD/",
+      "defaultValue": "https://raw.githubusercontent.com/tobiasrademacher/avd-test/main/Hands-on%20lab/resources/HybridAD/",
       "metadata": {
         "description": "This is the location in which all the linked templates are stored."
       }
+
+
+      
     },
     "adminUsername": {
       "type": "string",
