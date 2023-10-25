@@ -301,7 +301,7 @@ By default, Azure AD Connect does not synchronize the built-in domain administra
 
     ![This image shows the list of users you should see in Azure Active Directory synchronized from Active Directory with Azure AD Connect.](images/adconnectsync.png "Synchronized users list")
 
-    >**Note**: It can take up to 15 minutes for the Active Directory objects to be synchronized to the Azure AD tenant.
+    >**Note**: It can take up to 15 minutes for the Active Directory objects to be synchronized to the Azure AD tenant. The Powershell commands **Start-ADSyncSyncCycle -PolicyType Delta** and **Start-ADSyncSyncCycle -PolicyType Initial** can help to speed up the waiting time.
 
 ## Exercise 2: Create Azure AD groups for AVD
 
