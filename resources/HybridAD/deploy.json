@@ -14,7 +14,7 @@
     },
     "adminUsername": {
       "type": "string",
-      "defaultValue": "ADmaster",
+      "defaultValue": "cloudAZuser",
       "metadata": {
         "description": "Username to set for the local User. Cannot be \"Administrator\", \"root\" and possibly other such common account names. "
       }
