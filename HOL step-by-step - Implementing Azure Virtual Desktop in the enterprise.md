@@ -506,7 +506,7 @@ In this task, you will complete the steps on the Domain Controller in Azure usin
 6. Navigate to where you unzipped the AzFilesHybrid. For example:
 
     ```cmd
-    cd C:\Users\ADAdmin\Documents\AzFilesHybrid\AzFilesHybrid
+    cd C:\Users\cloudAZuser\Documents\AzFilesHybrid
     ```
 
     ![This image shows how the path to the file should be the documents folder location in file explorer.](images/filelocation.png "Documents folder path")
