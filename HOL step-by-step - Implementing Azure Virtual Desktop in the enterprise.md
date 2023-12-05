@@ -1020,7 +1020,7 @@ The UI form offers the following actions:
 
         >**Note**: Update these settings as necessary. The Microsoft recommended settings are pre-selected. When you do not wish to apply these settings to the image, set each to \'Not Configured\'.
 
-    - Select **Install FSLogix Agent** to install the FSLogix Agent. When you select this option, the option to specify the FSLogix User Profile Container VHD Path is enabled. You do not want to specify this option in the image so blank out this setting.
+    - Clear **Install FSLogix Agent** to install the FSLogix Agent. When you select this option, the option to specify the FSLogix User Profile Container VHD Path is enabled. You do not want to specify this option in the image so blank out this setting.
 
     - Select **Install OneDrive per Machine** to install the OneDrive sync client per machine. When you select this option, it will enable the AAD Tenant ID field. Enter your tenant id here to enable silent Known Folder Move functionality in your image. We don't want this in our image for this lab, so blank out this setting as well.
 
