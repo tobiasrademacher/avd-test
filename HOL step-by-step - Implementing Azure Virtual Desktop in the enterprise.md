@@ -865,7 +865,7 @@ For more information on how to set up a Bastion host in Azure|https://docs.micro
 
 2. On the Azure portal home page, select **Create a resource**.
 
-3. On the New page, search for **Microsoft Windows 10**. Select one of the **Windows 10 Enterprise multi-session** builds and **Create**.
+3. On the New page, search for **multi-session**. Select one of the **Windows multi-session + Microsoft 365 Apps**, select **Create** and then click **Windows 10 Enterprise multi-session, version 22H2 + Microsoft 365 Apps**.
 
     >**Note:** The higher the version, the better to minimize the number of Windows updates you need to install later.
 
