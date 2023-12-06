@@ -1173,9 +1173,9 @@ Before continuing this exercise, check your available regional vCPUs and increas
 
     **net use <desired-drive-letter>: \\<storage-account-name>.file.core.windows.net\<share-name> <storage-account-key> /user:Azure\<storage-account-name>**
 
-For example *net use z: \\fsprofile.file.core.windows.net\share HDZQRoFP2BBmoYQ(truncated)== /user:Azure\fsprofile*
+    For example *net use z: \\fsprofile.file.core.windows.net\share HDZQRoFP2BBmoYQ(truncated)== /user:Azure\fsprofile*
 
-![Shows an example of how to find the storage account information.](images/storageaccountexample.png)
+    ![Shows an example of how to find the storage account information.](images/storageaccountexample.png)
 
 15. Reboot both of the virtual machines.
 
