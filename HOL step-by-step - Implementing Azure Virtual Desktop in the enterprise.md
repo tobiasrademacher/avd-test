@@ -1107,8 +1107,10 @@ Before continuing this exercise, check your available regional vCPUs and increas
     ![This image shows where to select host pools under manage and select add to add a new host pool.](images/avdHostPool.png "Azure Virtual Desktop blade")
 
 4. On the Basics page, fill in the fields as follows:
-   - Host pool name: **avdremotepool1**
+   - Host pool name: **avdmultisession1**
+   - Location **West Europe**
    - Validation environment: **Yes**
+   - Preferred app group type **Desktop**
    - Host pool type: **Pooled**
    - Load balancing algorithm: **Breadth-first**
    - Max session limit: 5
