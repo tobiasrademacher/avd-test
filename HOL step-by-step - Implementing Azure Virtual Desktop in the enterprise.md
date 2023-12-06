@@ -1079,7 +1079,7 @@ With the assignment added, you can move on to the next exercise. The users in th
 
 Duration:  45 minutes
 
-In this exercise, you will create a non-persistent host pool for publishing remote apps. This enables you to assign users access to specific applications rather than an entire desktop. This type of application deployment serves many purposes and is not new to AVD but has existed in Windows Server Remote Desktop Services for many years.
+In this exercise, you will create a host pool for the multi-session use of Windows 10. You will publish remote apps and a whole desktop application group. This enables you to assign users access to specific applications rather than an entire desktop. 
 
 Before continuing this exercise, check your available regional vCPUs and increase your quota if necessary. You'll need a minimum of 4 vCPU cores available for this exercise.
 
