@@ -1171,7 +1171,9 @@ Before continuing this exercise, check your available regional vCPUs and increas
 
 14. On the SessionHost remote desktop connection open an elevated **Windows Command Prompt**. In the CMD run the following command, changing the <desired-drive-letter> (e.g. z), <storage-account-name>, <share-name>, <storage-account-key> and <storage-account-name> which can be found in the Azure Portal:
 
-    **net use <desired-drive-letter>: \\<storage-account-name>.file.core.windows.net\<share-name> <storage-account-key> /user:Azure\<storage-account-name>**
+    ```cmd
+    net use <desired-drive-letter>: \\<storage-account-name>.file.core.windows.net\<share-name> <storage-account-key> /user:Azure\<storage-account-name>
+    ```
 
     For example *net use z: \\fsprofile.file.core.windows.net\share HDZQRoFP2BBmoYQ(truncated)== /user:Azure\fsprofile*
 
