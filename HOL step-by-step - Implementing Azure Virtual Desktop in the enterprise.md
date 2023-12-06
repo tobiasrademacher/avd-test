@@ -1129,12 +1129,12 @@ Before continuing this exercise, check your available regional vCPUs and increas
 
     - Add Azure virtual machines: Yes
     - Name prefix: avdmcwpool (or anything else you prefer).
-    - Virtual machine location: The region you've been creating your AVD host VMs.
+    - Virtual machine location: The region you've been creating your AVD host VMs (where the MYADDC is located, West Europe).
     - Availability options: Non infrastructure redundancy required.
     - Image: Your custom Windows Image. It should be something similar to "avdmcw/avduserimage/1.0.0".
     - Number of VMs: 2
-    - Virtual Netwokr: The virtual network you created for your host VMs.
-    - AD domain join UPN: adamin@yourdomain.com, replacing yourdomain.com with the domain you chose to use for the lab.
+    - Virtual Network: The virtual network you created for your host VMs.
+    - AD domain join UPN: cloudAZuser@yourdomain.com, replacing yourdomain.com with the domain you chose to use for the lab (myavd.com).
     - Password: the password you set for you adadmin user.
     - Username: avdadmin
     - Password: The password you want to use for your avdadmin user.
