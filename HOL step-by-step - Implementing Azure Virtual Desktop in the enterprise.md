@@ -1191,7 +1191,9 @@ Before continuing this exercise, check your available regional vCPUs and increas
 
     ![powershell example.](images/powershellcommand.png)
 
-15. Reboot both of the virtual machines.
+16. Go back to the MYAVDDC remote desktop connection, connect to the second SessionHost (e.g. avdmcwpool-1) via the private IP found in the Azure Portal and repeat steps 12-15 on this SessionHost aswell.
+
+17. **After you executed both of the commands on the two SessionHosts, reboot both of the virtual machines using the Azure Portal.**
 
 ### Task 2: Create a friendly name for the workspace
 
