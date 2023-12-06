@@ -1177,6 +1177,8 @@ Before continuing this exercise, check your available regional vCPUs and increas
 
     For example *net use z: \\fsprofile.file.core.windows.net\share HDZQRoFP2BBmoYQ(truncated)== /user:Azure\fsprofile*
 
+    ![cmd example.](images/cmdcommand.png)
+
     ![Shows an example of how to find the storage account information.](images/storageaccountexample.png)
 
 15. Open an elevated Powershell and run the following command, changing <storage-account-name> and <share-name> to your value:
@@ -1186,8 +1188,8 @@ Before continuing this exercise, check your available regional vCPUs and increas
     New-ItemProperty -Path $regPath -Name Enabled -PropertyType DWORD -Value 1 -Force
     New-ItemProperty -Path $regPath -Name VHDLocations -PropertyType MultiString -Value \\<storage-account-name>.file.core.windows.net\<share-name>\Profiles -Force
     ```
-![cmd example.](images/cmdcommand.png)
-![powershell example.](images/powershellcommand.png)
+
+    ![powershell example.](images/powershellcommand.png)
 
 15. Reboot both of the virtual machines.
 
