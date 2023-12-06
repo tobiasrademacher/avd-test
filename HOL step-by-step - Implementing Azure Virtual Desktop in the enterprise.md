@@ -1183,8 +1183,8 @@ Before continuing this exercise, check your available regional vCPUs and increas
 
     ```powershell
     $regPath = "HKLM:\SOFTWARE\FSLogix\profiles"
-New-ItemProperty -Path $regPath -Name Enabled -PropertyType DWORD -Value 1 -Force
-New-ItemProperty -Path $regPath -Name VHDLocations -PropertyType MultiString -Value \\<storage-account-name>.file.core.windows.net\<share-name>\Profiles -Force
+    New-ItemProperty -Path $regPath -Name Enabled -PropertyType DWORD -Value 1 -Force
+    New-ItemProperty -Path $regPath -Name VHDLocations -PropertyType MultiString -Value \\<storage-account-name>.file.core.windows.net\<share-name>\Profiles -Force
     ```
 ![cmd example.](images/cmdcommand.png)
 ![powershell example.](images/powershellcommand.png)
