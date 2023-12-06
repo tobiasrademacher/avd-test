@@ -1163,11 +1163,21 @@ Before continuing this exercise, check your available regional vCPUs and increas
 
     ![The AVD App Host group properties, with the members tab selected and both virtual machines added. The OK button is highlighted.](images/addapphostcomputers.png)
 
-12. Wait a few minutes and make sure this change synchronizes to Azure Active Directory.
+12. In the domain controller remote desktop connection open a new **Remote Desktop Connection** and connect to one SessionHost (e.g. avdmcwpool-0) via the private ip address (e.g. 10.0.1.7; can be found in the Azure Portal on the virtual machine tab -> Network settings).
 
     ![The AVD App Hosts group opened in Azure AD with members selected. The two virtual machines we added to the group on the domain controller are shown.](images/aadavdapphosts.png)
 
-13. Reboot both of the virtual machines.
+13. Connect using the local admin account you choose when deploying the two SessionHosts in the hostpool (e.g. avdadmin with choosen password).
+
+14. On the SessionHost remote desktop connection open an elevated **Windows Command Prompt**. In the CMD run the following command, changing the <desired-drive-letter> (e.g. z), <storage-account-name>, <share-name>, <storage-account-key> and <storage-account-name> which can be found in the Azure Portal:
+
+    **net use <desired-drive-letter>: \\<storage-account-name>.file.core.windows.net\<share-name> <storage-account-key> /user:Azure\<storage-account-name>**
+
+For example *net use z: \\fsprofile.file.core.windows.net\share HDZQRoFP2BBmoYQ(truncated)== /user:Azure\fsprofile*
+
+![Shows an example of how to find the storage account information.](images/storageaccountexample.png)
+
+15. Reboot both of the virtual machines.
 
 ### Task 2: Create a friendly name for the workspace
 
