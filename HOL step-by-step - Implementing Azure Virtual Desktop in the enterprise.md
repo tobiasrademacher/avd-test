@@ -1119,7 +1119,7 @@ Before continuing this exercise, check your available regional vCPUs and increas
 
     ![This image shows the create a host pool blade, where you will enter in the information for the virtual machines that will host the remote apps and select next for workspace.](images/remoteapppool.png "Create host pool")
 
-5. When you configure **Virtual machine settings**, select **Browse all images and disks** and then select the tab option for **My Items** to select the image created earlier in **Exercise 4**.
+5. On the next page, choose **Add virtual machines Yes**. When you configure **Virtual machine settings**, select **Browse all images and disks** and then select the tab option for **Shared Images** to select the image created earlier in **Exercise 4**.
 
     ![This image shows where you will find your custom image to add to the host pool.](images/hostpoolcustom.png "Host pool custom image")
 
