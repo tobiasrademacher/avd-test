@@ -1722,7 +1722,7 @@ In this task, you will take an **MSIX package** created from the [MSIX packaging
 
     >**Note:** Normally, in production, you would create an additional share for MSIX files and place the files there. You would need to make sure the share or container the MSIX files are in you follow the same steps you use for the FSLogix storage account and apply the appropriate permissions to them (users typically only need Read access) and make sure there is enough room to store them. We are placing it on the same share for this exercise for expediency and easier setup. It is not uncommon to have a central MSIX storage with permissions to each MSIX file based on groups assigned to the appropriate application and the MSIX repository used by multiple pools or deployments but ensure network connectivity and speed are kept consistent.
 
-5. In a new tab in your browser, navigate to [https://github.com/microsoft/MCW-Implementing-Azure-Virtual-Desktop-in-the-enterprise/blob/main/Hands-on%20lab/resources/VHD/](https://github.com/tobiasrademacher/avd-test/blob/dev/Hands-on%20lab/resources/VHD/) and download AVD-MSIX.vhd.
+5. In a new tab in your browser, navigate to [https://github.com/microsoft/MCW-Implementing-Azure-Virtual-Desktop-in-the-enterprise/blob/main/Hands-on%20lab/resources/VHD/](https://github.com/microsoft/MCW-Implementing-Azure-Virtual-Desktop-in-the-enterprise/blob/main/Hands-on%20lab/resources/VHD/AVD-MSIX.vhd) and download AVD-MSIX.vhd.
 
 6. Back in your storage account, upload the .VHD file to the MSIX folder.
 
