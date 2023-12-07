@@ -1267,9 +1267,11 @@ The name of the Workspace is displayed when the user signs in. Available resourc
 
     ![This image shows the workspace name will auto-populate, and you will select review and create.](images/remoteappws.png "Create application group")
 
-13. Select **Create**.
+13. Next search for **Application groups** in the search bar.
 
-You have successfully created a Remote App non-persistent Host Pool with published apps. You can validate this configuration when you connect to the environment in a later exercise.
+14. Click on the preconfigured Application Group for Desktop, called *yourchoosenname*-**DAG** and assign the same user group as in the previous steps to the application group.
+
+      ![This image shows the final list of applications.](images/applicationgroupassignment.png "Application list")
 
 ## Exercise 7: Connect to AVD with the web client
 
