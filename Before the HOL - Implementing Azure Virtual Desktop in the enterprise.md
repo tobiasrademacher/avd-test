@@ -89,7 +89,7 @@ This ARM Template will provision the following resources:
 
 > **Tip**: Internally, at MSFT, we have different tenant directories available. Because of this, it is not uncommon for ARM templates hosted on GitHub to get stuck during deployment. To avoid confusion and deployment errors, **open an InPrivate browser window** when deploying ARM templates from GitHub.
 
-1. Open a browser using "InPrivate" or "Incognito" mode, and navigate to the ARM template: [AAD hybrid lab ARM template from GitHub](https://github.com/microsoft/MCW-Implementing-Azure-Virtual-Desktop-in-the-enterprise/tree/main/Hands-on%20lab/resources/HybridAD).
+1. Open a browser using "InPrivate" or "Incognito" mode, and navigate to the ARM template: [AAD hybrid lab ARM template from GitHub](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Ftobiasrademacher%2Favd-test%2Fdev%2Fresources%2FHybridAD%2Fdeploy.json).
 
 2. Review the notes on the GitHub page for the ARM template before deployment.
 
