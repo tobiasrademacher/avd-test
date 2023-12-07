@@ -871,8 +871,6 @@ For more information on how to set up a Bastion host in Azure|https://docs.micro
 
     ![This image shows the window will display the creation of a New Microsoft Windows 10 VM using software plan Windows 10 Enterprise multi-session, Version 1909.](images/windows10VM.png "New Microsoft Windows 10 VM using software plan Windows 10 Enterprise multi-session, Version 1909")
 
-    >**Note**: In this exercise, we are selecting a base Windows 10 image to start with and installing Office 365 ProPlus using a custom deployment script. We are also using the latest available release of Windows 10 Enterprise multi-session, but you can choose the version based on your requirements.
-
 4. On the Create a virtual machine page, fill in the required fields shown below. 
 
     ![What your configuration should be for the virtual machine image.](images/win10vmcreate.png "Create virtual machine")
