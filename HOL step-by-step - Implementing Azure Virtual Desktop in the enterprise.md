@@ -1167,7 +1167,7 @@ Before continuing this exercise, check your available regional vCPUs and increas
 
 13. Connect using the local admin account you choose when deploying the two SessionHosts in the hostpool (e.g. avdadmin with choosen password).
 
-14. On the SessionHost remote desktop connection open an elevated **Windows Command Prompt**. In the CMD run the following command, changing the <desired-drive-letter> (e.g. z), **"<storage-account-name>"**, **"<share-name>"**, **"<storage-account-key>"** and <storage-account-name> which can be found in the Azure Portal:
+14. On the SessionHost remote desktop connection open an elevated **Windows Command Prompt**. In the CMD run the following command, changing the <desired-drive-letter> (e.g. z), **storage-account-name**, **share-name**, **storage-account-key** and **storage-account-name** which can be found in the Azure Portal:
 
     ```cmd
     net use <desired-drive-letter>: \\<storage-account-name>.file.core.windows.net\<share-name> <storage-account-key> /user:Azure\<storage-account-name>
